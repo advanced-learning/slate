@@ -3,7 +3,7 @@
   "description": "A set of React prop type checkers for Slate editors.",
   "version": "0.5.37",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/advanced-learning/slate.git",
   "main": "lib/slate-prop-types.js",
   "module": "lib/slate-prop-types.es.js",
   "umd": "dist/slate-prop-types.js",

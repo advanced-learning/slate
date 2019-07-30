@@ -3,7 +3,7 @@
   "description": "INTERNAL: A set of environment-related constants for Slate's core.",
   "version": "0.2.2",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/advanced-learning/slate.git",
   "main": "lib/slate-dev-environment.js",
   "module": "lib/slate-dev-environment.es.js",
   "umd": "dist/slate-dev-environment.js",

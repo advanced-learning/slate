@@ -3,7 +3,7 @@
   "description": "INTERNAL: A set of utils for Slate's core tests.",
   "version": "0.0.1",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/advanced-learning/slate.git",
   "main": "src/index.js",
   "files": [
     "dist/",

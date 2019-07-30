@@ -3,7 +3,7 @@
   "description": "INTERNAL: A development-only benchmark tool for Slate's core.",
   "version": "0.0.5",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/advanced-learning/slate.git",
   "main": "src/index.js",
   "devDependencies": {
     "mocha": "^2.5.3"
