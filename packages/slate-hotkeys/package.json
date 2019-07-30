@@ -1,7 +1,7 @@
 {
   "name": "@advanced-learning/slate-hotkeys",
   "description": "A set of function to detect common keypresses in a platform-agnostic way",
-  "version": "0.2.9",
+  "version": "0.2.10-0",
   "license": "MIT",
   "repository": "git://github.com/advanced-learning/slate.git",
   "main": "lib/slate-hotkeys.js",
@@ -16,8 +16,8 @@
     "lib/"
   ],
   "dependencies": {
-    "is-hotkey": "0.1.4",
-    "@advanced-learning/slate-dev-environment": "^0.2.2"
+    "@advanced-learning/slate-dev-environment": "^0.2.3-0",
+    "is-hotkey": "0.1.4"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

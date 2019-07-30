@@ -1,7 +1,7 @@
 {
   "name": "@advanced-learning/slate-react",
   "description": "A set of React components for building completely customizable rich-text editors.",
-  "version": "0.22.4",
+  "version": "0.22.5-0",
   "license": "MIT",
   "repository": "git://github.com/advanced-learning/slate.git",
   "main": "lib/slate-react.js",
@@ -16,6 +16,12 @@
     "lib/"
   ],
   "dependencies": {
+    "@advanced-learning/slate-base64-serializer": "^0.2.108-0",
+    "@advanced-learning/slate-dev-environment": "^0.2.3-0",
+    "@advanced-learning/slate-hotkeys": "^0.2.10-0",
+    "@advanced-learning/slate-plain-serializer": "^0.7.7-0",
+    "@advanced-learning/slate-prop-types": "^0.5.38-0",
+    "@advanced-learning/slate-react-placeholder": "^0.2.5-0",
     "debug": "^3.1.0",
     "get-window": "^1.1.1",
     "is-window": "^1.0.2",
@@ -24,12 +30,6 @@
     "prop-types": "^15.5.8",
     "react-immutable-proptypes": "^2.1.0",
     "selection-is-backward": "^1.0.0",
-    "@advanced-learning/slate-base64-serializer": "^0.2.107",
-    "@advanced-learning/slate-dev-environment": "^0.2.2",
-    "@advanced-learning/slate-hotkeys": "^0.2.9",
-    "@advanced-learning/slate-plain-serializer": "^0.7.6",
-    "@advanced-learning/slate-prop-types": "^0.5.37",
-    "@advanced-learning/slate-react-placeholder": "^0.2.4",
     "tiny-invariant": "^1.0.1",
     "tiny-warning": "^0.0.3"
   },
@@ -40,11 +40,11 @@
     "slate": ">=0.47.0"
   },
   "devDependencies": {
+    "@advanced-learning/slate": "^0.47.5-0",
+    "@advanced-learning/slate-hyperscript": "^0.13.5-0",
     "immutable": "^3.8.1",
     "mocha": "^2.5.3",
-    "react-test-renderer": "^16.6.3",
-    "@advanced-learning/slate": "^0.47.4",
-    "@advanced-learning/slate-hyperscript": "^0.13.4"
+    "react-test-renderer": "^16.6.3"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

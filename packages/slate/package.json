@@ -1,7 +1,7 @@
 {
   "name": "@advanced-learning/slate",
   "description": "A completely customizable framework for building rich text editors.",
-  "version": "0.47.4",
+  "version": "0.47.5-0",
   "license": "MIT",
   "repository": "git://github.com/advanced-learning/slate.git",
   "main": "lib/slate.js",
@@ -29,8 +29,8 @@
     "immutable": ">=3.8.1 || >4.0.0-rc"
   },
   "devDependencies": {
-    "@advanced-learning/slate-dev-test-utils": "^0.0.1",
-    "@advanced-learning/slate-hyperscript": "^0.13.4"
+    "@advanced-learning/slate-dev-test-utils": "^0.0.2-0",
+    "@advanced-learning/slate-hyperscript": "^0.13.5-0"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

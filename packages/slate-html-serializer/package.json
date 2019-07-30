@@ -1,7 +1,7 @@
 {
   "name": "@advanced-learning/slate-html-serializer",
   "description": "An HTML serializer for Slate editors.",
-  "version": "0.8.6",
+  "version": "0.8.7-0",
   "license": "MIT",
   "repository": "git://github.com/advanced-learning/slate.git",
   "main": "lib/slate-html-serializer.js",
@@ -19,15 +19,15 @@
     "type-of": "^2.0.1"
   },
   "peerDependencies": {
+    "@advanced-learning/slate": ">=0.36.0",
     "immutable": ">=3.8.1 || >4.0.0-rc",
     "react": ">=0.14.0",
-    "react-dom": ">=0.14.0",
-    "@advanced-learning/slate": ">=0.36.0"
+    "react-dom": ">=0.14.0"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "@advanced-learning/slate": "^0.47.4",
-    "@advanced-learning/slate-hyperscript": "^0.13.4"
+    "@advanced-learning/slate": "^0.47.5-0",
+    "@advanced-learning/slate-hyperscript": "^0.13.5-0",
+    "mocha": "^2.5.3"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

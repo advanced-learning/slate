@@ -1,7 +1,7 @@
 {
   "name": "@advanced-learning/slate-hyperscript",
   "description": "A hyperscript helper for creating Slate documents.",
-  "version": "0.13.4",
+  "version": "0.13.5-0",
   "license": "MIT",
   "repository": "git://github.com/advanced-learning/slate.git",
   "main": "lib/slate-hyperscript.js",
@@ -22,8 +22,8 @@
     "@advanced-learning/slate": ">=0.47.0"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "@advanced-learning/slate": "^0.47.4"
+    "@advanced-learning/slate": "^0.47.5-0",
+    "mocha": "^2.5.3"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

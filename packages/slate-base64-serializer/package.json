@@ -1,7 +1,7 @@
 {
   "name": "@advanced-learning/slate-base64-serializer",
   "description": "A Base64 serializer for Slate editors.",
-  "version": "0.2.107",
+  "version": "0.2.108-0",
   "license": "MIT",
   "repository": "git://github.com/advanced-learning/slate.git",
   "main": "lib/slate-base64-serializer.js",
@@ -19,8 +19,8 @@
     "@advanced-learning/slate": ">=0.32.0"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "@advanced-learning/slate": "^0.47.4"
+    "@advanced-learning/slate": "^0.47.5-0",
+    "mocha": "^2.5.3"
   },
   "dependencies": {
     "isomorphic-base64": "^1.0.2"

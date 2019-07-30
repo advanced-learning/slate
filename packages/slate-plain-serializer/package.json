@@ -1,7 +1,7 @@
 {
   "name": "@advanced-learning/slate-plain-serializer",
   "description": "A plain text serializer for Slate editors.",
-  "version": "0.7.6",
+  "version": "0.7.7-0",
   "license": "MIT",
   "repository": "git://github.com/advanced-learning/slate.git",
   "main": "lib/slate-plain-serializer.js",
@@ -16,13 +16,13 @@
     "lib/"
   ],
   "peerDependencies": {
-    "immutable": ">=3.8.1",
-    "@advanced-learning/slate": ">=0.46.0"
+    "@advanced-learning/slate": ">=0.46.0",
+    "immutable": ">=3.8.1"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "@advanced-learning/slate": "^0.47.4",
-    "@advanced-learning/slate-hyperscript": "^0.13.4"
+    "@advanced-learning/slate": "^0.47.5-0",
+    "@advanced-learning/slate-hyperscript": "^0.13.5-0",
+    "mocha": "^2.5.3"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"
