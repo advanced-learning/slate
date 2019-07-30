@@ -8,6 +8,9 @@
   "module": "lib/slate-hyperscript.es.js",
   "umd": "dist/slate-hyperscript.js",
   "umdMin": "dist/slate-hyperscript.min.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist/",
     "lib/"

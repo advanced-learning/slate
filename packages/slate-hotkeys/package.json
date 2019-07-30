@@ -8,6 +8,9 @@
   "module": "lib/slate-hotkeys.es.js",
   "umd": "dist/slate-hotkeys.js",
   "umdMin": "dist/slate-hotkeys.min.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist/",
     "lib/"

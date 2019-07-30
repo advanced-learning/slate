@@ -8,6 +8,9 @@
   "module": "lib/slate-dev-environment.es.js",
   "umd": "dist/slate-dev-environment.js",
   "umdMin": "dist/slate-dev-environment.min.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist/",
     "lib/"

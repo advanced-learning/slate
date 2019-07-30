@@ -8,6 +8,9 @@
   "module": "lib/slate-react-placeholder.es.js",
   "umd": "dist/slate-react-placeholder.js",
   "umdMin": "dist/slate-react-placeholder.min.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist/",
     "lib/"

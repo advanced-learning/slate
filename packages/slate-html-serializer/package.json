@@ -8,6 +8,9 @@
   "module": "lib/slate-html-serializer.es.js",
   "umd": "dist/slate-html-serializer.js",
   "umdMin": "dist/slate-html-serializer.min.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist/",
     "lib/"

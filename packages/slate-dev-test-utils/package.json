@@ -5,6 +5,9 @@
   "license": "MIT",
   "repository": "git://github.com/advanced-learning/slate.git",
   "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist/",
     "lib/"

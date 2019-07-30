@@ -12,6 +12,9 @@
     "dist/",
     "lib/"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@advanced-learning/slate": ">=0.32.0"
   },

@@ -8,6 +8,9 @@
   "module": "lib/slate-prop-types.es.js",
   "umd": "dist/slate-prop-types.js",
   "umdMin": "dist/slate-prop-types.min.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist/",
     "lib/"

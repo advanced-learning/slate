@@ -8,6 +8,9 @@
   "module": "lib/slate-plain-serializer.es.js",
   "umd": "dist/slate-plain-serializer.js",
   "umdMin": "dist/slate-plain-serializer.min.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist/",
     "lib/"
